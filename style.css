@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+
 html {
     font-size: 62.5%;
 }
@@ -14,12 +15,13 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 1.6rem;
     line-height: 1.7;
-    color: #777;
-    background-image: url("Assets/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
-    background-size: cover;
+    color: #333;
+    background-size: fixd;
     background-position: center;
     height: 100vh;
     background-repeat: no-repeat;
+    background-color: #333;
+
 }
 
 
@@ -48,7 +50,7 @@ a {
 }
 
 .nav-items {
-    margin-left: 2rem;
+    margin-left: 6rem;
     transition: 0.4s ease all;
 }
 
@@ -62,12 +64,27 @@ a {
     width: 100%;
 }
 
+#bb {
+    background-image: url("Assets/peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
+}
 
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-size: cover;
+
+}
+
+.tagline {
+    font-size: 2.5rem;
+    font-weight: 100;
 }
 
 .hero {
@@ -77,10 +94,12 @@ header {
 
 .btn {
     width: 100%;
+
 }
 
 .btn .button {
     margin: 0 auto;
+    border-radius: 1%;
 }
 
 .hero .btn {
@@ -118,4 +137,48 @@ header {
     text-align: center;
     display: inline-block;
     font-size: 16px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.left-inscription,
+.right-inscription {
+    flex-basis: 45%;
+    /* Adjust the width of the inscriptions as desired */
+}
+
+.about-section {
+    position: relative;
+    top: 10rem;
+}
+
+.contact-section {
+    position: relative;
+    top: 10rem;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about {
+    color: #ffffff;
+}
+
+.left-inscription {
+    font-size: 2.5rem;
+    font-weight: 300;
+
+}
+
+.right-inscription {
+    margin-top: 9rem;
 }
