@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+.sef h3 {
+    padding-left: 20px;
+    color: black;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #777;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.sef {
+    flex: auto;
+    flex-direction: row;
+    background-color: blue;
+}
+
+
+.display {
+    background-image: url("Assets/joshua-koblin-eqW1MPinEV4-unsplash.jpg");
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    float: left;
+}
+
+form {
+    width: fit-content;
+    float: right;
+    margin: 120px;
+    font-size: large;
+    margin-top: 150px;
+}
+
+#mail {
+    padding: 0px 20px 20px 20px;
+
+}
+
+input {
+    height: 25px;
+    width: 300px;
+}
+
+.text1 {
+    color: black;
+    padding-right: 30px;
+}
+
+.text2 {
+    color: black;
+    padding: 22px;
+}
+
+button {
+    background-color: rgb(233, 56, 56);
+    width: 150px;
+    height: 30px;
+    margin: 30px 20px 0 180px;
+    border-color: none;
+    border-radius: 2px;
+}
+
+button a {
+    color: black;
+    font-size: 2;
+}
+
+a {
+    color: blue;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ma {
+    font-size: 13px;
+    padding: 10px 30px 0 140px;
+    margin-left: 65px;
+}
